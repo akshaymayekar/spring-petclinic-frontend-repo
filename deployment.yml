@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: gitlab-frontend
-        image: 038062473746.dkr.ecr.us-east-1.amazonaws.com/team-gitlab-hackathon/frontend:15
+        image: 038062473746.dkr.ecr.us-east-1.amazonaws.com/team-gitlab-hackathon/frontend:<VERSION>
         ports:
         - name: http-frontend
           containerPort: 80
